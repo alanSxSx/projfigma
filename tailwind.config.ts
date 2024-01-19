@@ -9,13 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'texture': "url('/texture.png')",
       },
 			boxShadow: {
         'bottom-strong': '-1px 3px 3px rgba(0, 0, 0, 0.3)', // Ajuste os valores conforme necessário
       },
+     
     },
   },
   plugins: [],
