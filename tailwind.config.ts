@@ -14,6 +14,9 @@ const config: Config = {
 			boxShadow: {
         'bottom-strong': '-1px 3px 3px rgba(0, 0, 0, 0.3)', // Ajuste os valores conforme necessário
       },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
      
     },
   },
