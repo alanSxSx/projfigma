@@ -6,7 +6,7 @@ export default function TextMain2() {
 			<div className='text-base pb-4 font-bold pt-24'>
 			Best Project of the Years
 			</div>
-			<div className='text-4xl pb-4 font-bold'>
+			<div className='text-5xl pb-4 font-bold'>
 			Our recent projects
 			</div>
 		</div>
