@@ -1,10 +1,12 @@
 import React from 'react'
+import TitleMain from '../components/TitleMain'
 
 export default function Main2() {
 	return (
 		<div className=' w-full flex-col flex items-center pt-24'>
 			<div className='text-base pb-8 font-bold'>Three steps. Three minutes.</div>
-			<div className='text-5xl pb-16 font-bold'>Everything should be this easy.</div>
+			{/* <div className='text-5xl pb-16 font-bold'>Everything should be this easy.</div> */}
+			<TitleMain title="Everything should be this easy."/>
 			<div className='flex w-full justify-around'>
 				<div className='w-1/5'>
 					<svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
